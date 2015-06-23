@@ -1,0 +1,143 @@
+body{
+	height:500px;
+	background-color:#fff;
+	display:block;
+}
+
+header{
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+
+}
+header h1{
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+header #newgamebutton{
+    display: block;
+    margin: 0px auto;
+    width: 100px;
+    padding: 10px 10px;
+    background-color: #8f7a66;
+    font-family: Arial;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+header #newgamebutton:hover{
+    background-color: #9f8b77;
+}
+header p{
+    font-family: Arial;
+    font-size: 20px;
+    margin: 5px auto;
+}
+
+#div2048
+{
+    width: 500px;
+    height: 500px;
+    background-color: #b8af9e;
+    margin: 0 auto;
+    position: relative;
+    border-radius: 15px;
+}
+#start
+{
+    width: 500px;
+    height: 500px;
+    line-height: 500px;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    background: #f2b179;
+    color: #FFFFFF;
+    border-radius: 15px;
+}
+#div2048 div.tile
+{
+    margin: 20px 0px 0px 20px;
+    width: 100px;
+    height: 50px;
+    padding: 25px 0;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    border-radius: 6px;
+}
+#div2048 div.tile0{
+    background: #ccc0b2;
+    border-radius: 6px;
+}
+#div2048 div.tile2
+{
+    color: #7c736a;
+    background: #eee4da;
+    border-radius: 6px;
+}
+#div2048 div.tile4
+{
+    color: #7c736a;
+    background: #ece0c8;
+    border-radius: 6px;
+}
+#div2048 div.tile8
+{
+    color: #fff7eb;
+    background: #f2b179;
+    border-radius: 6px;
+}
+#div2048 div.tile16
+{
+    color:#fff7eb;
+    background:#f59563;
+    border-radius: 6px;
+}
+#div2048 div.tile32
+{
+    color:#fff7eb;
+    background:#f57c5f;
+    border-radius: 6px;
+}
+#div2048 div.tile64
+{
+    color:#fff7eb;
+    background:#f65d3b;
+    border-radius: 6px;
+}
+#div2048 div.tile128
+{
+    color:#fff7eb;
+    background:#edce71;
+    border-radius: 6px;
+}
+#div2048 div.tile256
+{
+    color:#fff7eb;
+    background:#edcc61;
+    border-radius: 6px;
+}
+#div2048 div.tile512
+{
+    color:#fff7eb;
+    background:#ecc850;
+}
+#div2048 div.tile1024
+{
+    color:#fff7eb;
+    background:#edc53f;
+    border-radius: 6px;
+}
+#div2048 div.tile2048
+{
+    color:#fff7eb;
+    background:#eec22e;
+    border-radius: 6px;
+}
